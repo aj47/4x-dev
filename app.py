@@ -10,7 +10,7 @@ load_dotenv()
 
 # Configure page settings
 st.set_page_config(
-    page_title="4xDev - Generate Multiple Web Apps",
+    page_title="5xDev - Generate Multiple Web Apps",
     page_icon="🧪",
     layout="wide",
 )
@@ -79,7 +79,7 @@ def generate_web_app(prompt, variation_prompt=""):
         return f"Error generating code: {str(e)}"
 
 # App title and description
-st.title("🧪 4xDev - Web App Generator")
+st.title("🧪 5xDev - Web App Generator")
 st.markdown("""
 Generate four different web applications from a single prompt using Groq's LLama3-70B model.
 Enter your idea below and see what gets created!
